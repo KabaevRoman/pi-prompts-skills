@@ -32,5 +32,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabaevRoman/pi-prompts-skills.git"
   }
 }
