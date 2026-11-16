@@ -1,6 +1,6 @@
 # @kabaevroman/pi-code-prompts-skills
 
-Independently installable pi extension: prompts-skills. Former package name: `pi-claude-prompts-skills`.
+Independently installable pi extension: prompts-skills.
 
 This extension depends on `@kabaevroman/pi-code-core@0.5.0`; it does not require any other extension.
 
