@@ -1,0 +1,36 @@
+{
+  "name": "pi-code-prompts-skills",
+  "version": "0.5.0",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "description": "Independent pi extension: prompts-skills",
+  "files": [
+    "index.ts",
+    "lib"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "1.5.2",
+    "typebox": "1.3.27"
+  },
+  "dependencies": {
+    "pi-code-core": "0.5.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.19.19"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
