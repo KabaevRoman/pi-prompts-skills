@@ -1,5 +1,5 @@
 import type { ExtensionAPI } from '@earendil-works/pi-coding-agent';
-import { acquire } from 'pi-code-core';
+import { acquire } from '@kabaevroman/pi-code-core';
 import { fileURLToPath } from 'node:url';
 export default function (pi: ExtensionAPI): void {
   const state = acquire(pi,'resources'); if (!state) return;
