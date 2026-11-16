@@ -1,5 +1,5 @@
 import type { ExtensionAPI } from '@earendil-works/pi-coding-agent';
-import { acquire } from '@kabaevroman/pi-code-core';
+import { acquire } from '@pi-ko/core';
 import { readFileSync } from 'node:fs';
 export default function (pi: ExtensionAPI): void {
   const state = acquire(pi,'prompts'); if (!state) return;
